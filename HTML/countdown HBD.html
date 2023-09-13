@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Misni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/countdownHBD.css">
+    <link rel="shortcut icon" href="/IMG/FAVICON.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+        /* Gaya lainnya di sini... */
+    </style>
+</head>
+<body>
+    <audio autoplay loop src="/IMG/_24_ Themed Countdown Clock (1 Minute).mp3"></audio>
+    <video autoplay loop muted style="width: 100%;" height="auto">
+        <source src="/IMG/BGCountdown.mp4" type="video/mp4">
+        <!-- Ganti "/path/to/your-video.mp4" dengan URL atau path file video Anda -->
+    </video>
+    <div class="wrapper">
+        <div class="">
+            <h1 class="title"><span>COOMING SOON</span> HAPPY BIRTHDAY MISNI</h1>
+            <div class="countdown-container">
+                <div>
+                    <p id="days" class="big-text">0</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours" class="big-text">0</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="min" class="big-text">0</p>
+                    <span>Min</span>
+                </div>
+                <div>
+                    <p id="sec" class="big-text">0</p>
+                    <span>Sec</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/JS/countdownHBD.js"></script>
+</body>
+</html>
